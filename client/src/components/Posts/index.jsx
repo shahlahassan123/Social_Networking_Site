@@ -315,7 +315,7 @@ const Posts = () => {
           </div>
           <div className={styles.addPostSettings}>
             <img className={styles.settingsIcon}
-              src='./DotsThree.svg' alt='settings'
+              src='/DotsThree.svg' alt='settings'
               onClick={(event) => {
                 event.stopPropagation();
                 setActivePostOptions(post.id)
