@@ -152,17 +152,17 @@ const Navbars = ({onFindJobsClick,onSavedJobsClick, handleTabClick}) => {
           <div className={styles.menu}>
           <div className={styles.menuItem}>
           <Link to="/feed" className={styles.menuItemLink}>
-            <img className={styles.icon} src='./home.svg' alt="home" style={{ fill: '#9F9BB9' }} />
+            <img className={styles.icon} src='/home.svg' alt="home" style={{ fill: '#9F9BB9' }} />
           </Link>
           </div>
           <div className={styles.menuItem}>
           <Link to="/network" className={styles.menuItemLink}>
-            <img className={styles.icon} src='./layers.svg' alt="network" />
+            <img className={styles.icon} src='/layers.svg' alt="network" />
             </Link>
           </div>
           <div className={styles.menuItem}>
           <Link to="/jobs" className={styles.menuItemLink}>
-            <img className={styles.icon} src='./briefcase.svg' alt="jobs" />
+            <img className={styles.icon} src='/briefcase.svg' alt="jobs" />
           </Link>
           </div>
           {/* <div className={styles.menuItem}>
@@ -189,7 +189,7 @@ const Navbars = ({onFindJobsClick,onSavedJobsClick, handleTabClick}) => {
       <div className={styles.navMenu2}>
         <div className={styles.searchBarContainer}>
           <img className={styles.searchIcon}
-          src='./search.svg' alt='search' />
+          src='/search.svg' alt='search' />
           <input type='text' className={styles.searchInput} onChange={e=>handleChangeSearch(e)}
           placeholder="Search" value={searchName} />
         </div>

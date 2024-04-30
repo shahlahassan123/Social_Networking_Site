@@ -374,7 +374,7 @@ const UserProfile = () => {
 
                 <div className={styles.btns}>
                   <button className={styles.connectBtn}>
-                    <img src="./connect.svg" className={styles.icon} />
+                    <img src="/connect.svg" className={styles.icon} />
                     <p className={styles.btnTxt} onClick={()=>handleConnectClick(userProfileData?.userID)}> Connect</p>
                   </button>
                   {/* <button className={styles.msgBtn}>
@@ -484,7 +484,7 @@ const UserProfile = () => {
         </div>
         <div className={styles.others}>
         <img className={styles.background}
-                        src='/public/profbackpic.svg' />
+                        src='/profbackpic.svg' />
                         <h6>People you may know</h6>
           {selected?.map((user, index) => (
             <div key={index} className={styles.interestContainer}>

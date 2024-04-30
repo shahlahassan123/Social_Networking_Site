@@ -811,7 +811,7 @@ const Profile = () => {
               ))}
               <div className={styles.showPostsContainer}>
                 <p className={styles.showPosts}> Show all skills</p>
-                <img src="./Arrow.svg" className={styles.icon} />
+                <img src="/Arrow.svg" className={styles.icon} />
               </div>
             </div>
 

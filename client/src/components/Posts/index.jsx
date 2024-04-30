@@ -308,7 +308,7 @@ const Posts = () => {
             <p className={styles.postUserName}>{post.firstName} {post.lastName}</p>
             <p className={styles.postUserJobTitle}>{post.title}</p>
             <div className={styles.jobTimer}>
-              <img className={styles.jobTimerImg} src="./history-outline.svg" alt="timer" />
+              <img className={styles.jobTimerImg} src="/history-outline.svg" alt="timer" />
               {/* <p className={styles.jobTime}>{post.TimeCreated ? post.TimeCreated.toDate().toLocaleString() : 'Loading...'}</p> */}
               <p className={styles.jobTime}>{post.TimeCreated && post.TimeCreated.toDate ? post.TimeCreated.toDate().toLocaleString() : 'Loading...'}{post.edited && <span> (edited)</span>}</p>
             </div>
@@ -344,16 +344,16 @@ const Posts = () => {
             <div className={styles.actionBtn} onClick={() => handleLike(post.id)}>
 
               <img className={styles.actionIcon}
-                src='./ThumbsUp.svg' alt='search' />
+                src='/ThumbsUp.svg' alt='search' />
               <p className={styles.actionText}>Like {post.likes && post.likes.length}</p>
             </div>
             <div className={styles.actionBtn} onClick={()=>setActivePost(post.id)}>
-              <img className={styles.actionIcon} src='./ChatText.svg' alt='comment' />
+              <img className={styles.actionIcon} src='/ChatText.svg' alt='comment' />
               <p className={styles.actionText}>Comment {post.comments ? post.comments.length : 0}</p>
             </div>
             <div className={styles.actionBtn} onClick={()=>handleRepost(post)}>
               <img className={styles.actionIcon}
-                src='./ShareNetwork.svg' alt='search' />
+                src='/ShareNetwork.svg' alt='search' />
               <p className={styles.actionText}>Repost</p>
             </div>
             {/* <div className={styles.actionBtn}>
@@ -396,7 +396,7 @@ const Posts = () => {
                 )}
                 <p className={styles.commentTime}>{comment.timestamp instanceof Date ? comment.timestamp.toLocaleString() : 'Loading...'}</p>
                 <img
-                  src='./DotsThree.svg'
+                  src='/DotsThree.svg'
                   alt='settings'
                   onClick={(event) => {
                     event.stopPropagation();

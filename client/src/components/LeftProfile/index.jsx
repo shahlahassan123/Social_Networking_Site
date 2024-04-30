@@ -69,7 +69,7 @@ const LeftProfile = ({onFindJobsClick,onSavedJobsClick, handleTabClick}) => {
     <div className={styles.menu}>
     <Link to="/feed" className={styles.homeMenuItemLink}>
       <div className={styles.menuItem}>  
-        <img className={styles.icon} src='./home.svg' alt="home"/>
+        <img className={styles.icon} src='/home.svg' alt="home"/>
         <p className={styles.menuText}> Home</p>
            
       </div>
@@ -83,7 +83,7 @@ const LeftProfile = ({onFindJobsClick,onSavedJobsClick, handleTabClick}) => {
       </Link> */}
    
      <div className={styles.JobmenuItem} onClick={() => toggleNetorkMenu()}>
-          <img className={styles.icon} src='./layers.svg' alt="Network" />
+          <img className={styles.icon} src='/layers.svg' alt="Network" />
           <p className={styles.menuText}> My Network</p>
         </div>
         {showNetWorksMenu &&
@@ -91,19 +91,19 @@ const LeftProfile = ({onFindJobsClick,onSavedJobsClick, handleTabClick}) => {
           <div className={styles.job_tabs}>
             <Link to="/network" className={styles.menuItemLink}  onClick={() => handleTabClick("Connections")}>
               <div className={styles.jobItem} onClick={onFindJobsClick}>
-                <img className={styles.icon} src='./briefcase.svg' alt="Network" />
+                <img className={styles.icon} src='/briefcase.svg' alt="Network" />
                 <p className={styles.menuText}> New Connections</p>
               </div>
             </Link>
             <Link to="/network" className={styles.menuItemLink} onClick={() => handleTabClick("Contacts")}>
               <div className={styles.jobItem} onClick={onSavedJobsClick}>
-                <img className={styles.icon} src='./briefcase.svg' alt="Network" />
+                <img className={styles.icon} src='/briefcase.svg' alt="Network" />
                 <p className={styles.menuText}> Contacts</p>
               </div>
             </Link>
             <Link to="/network" className={styles.menuItemLink} onClick={() => handleTabClick("Requests")}>
               <div className={styles.jobItem} onClick={onSavedJobsClick}>
-                <img className={styles.icon} src='./briefcase.svg' alt="Network" />
+                <img className={styles.icon} src='/briefcase.svg' alt="Network" />
                 <p className={styles.menuText}> Requests</p>
               </div>
             </Link>
@@ -115,7 +115,7 @@ const LeftProfile = ({onFindJobsClick,onSavedJobsClick, handleTabClick}) => {
         {/* <Link to="/jobs" className={styles.menuItemLink}> */}
 
           <div className={styles.JobmenuItem} onClick={() => toggleJobsMenu()}>
-            <img className={styles.icon} src='./briefcase.svg' alt="jobs" />
+            <img className={styles.icon} src='/briefcase.svg' alt="jobs" />
             <p className={styles.menuText}> Jobs</p>
           </div>
           {showJobsMenu &&
@@ -123,13 +123,13 @@ const LeftProfile = ({onFindJobsClick,onSavedJobsClick, handleTabClick}) => {
             <div className={styles.job_tabs}>
               <Link to="/jobs" className={styles.menuItemLink}>
               <div className={styles.jobItem} onClick={onFindJobsClick}>
-                <img className={styles.icon} src='./briefcase.svg' alt="jobs" />
+                <img className={styles.icon} src='/briefcase.svg' alt="jobs" />
                 <p className={styles.menuText}> Find Jobs</p>
               </div>
               </Link>
               <Link to="/jobs" className={styles.menuItemLink}>
               <div className={styles.jobItem} onClick={onSavedJobsClick}>
-                <img className={styles.icon} src='./briefcase.svg' alt="jobs" />
+                <img className={styles.icon} src='/briefcase.svg' alt="jobs" />
                 <p className={styles.menuText}> Saved Jobs</p>
               </div>
               </Link>

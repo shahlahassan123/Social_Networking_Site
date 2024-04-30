@@ -57,7 +57,7 @@ const RightNews = () => {
                 <p className={styles.jobCompany}>{job.company}</p>
               </div>
               <div className={styles.jobTimer}>
-                <img className={styles.jobTimerImg} src="./history-outline.svg" alt="timer" />
+                <img className={styles.jobTimerImg} src="/history-outline.svg" alt="timer" />
                 <p className={styles.jobTime}> {Math.ceil(Math.abs(new Date() - new Date(job['posted On'].toDate()))/ (1000 * 60))} mins</p>
               </div>
             </div>

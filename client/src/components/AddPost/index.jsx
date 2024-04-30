@@ -168,7 +168,7 @@ const AddPost = () => {
 
         <div className={styles.addPostBtn} onClick={openArticleModal}>
           <img className={styles.icon}
-            src='./Article.svg' alt='search' />
+            src='/Article.svg' alt='search' />
           <p className={styles.btnText}>Write Article</p>
         </div>
 
@@ -192,7 +192,7 @@ const AddPost = () => {
 
         <div className={styles.addPostBtn} onClick={openMediaModal}>
           <img className={styles.icon}
-            src='./play-circle.svg' alt='search' />
+            src='/play-circle.svg' alt='search' />
           <p className={styles.btnText}>Media</p>
         </div>
 
