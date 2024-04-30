@@ -40,7 +40,7 @@ const FirstPage = () => {
      
            <div className={styles.homeImgContainer}>
              <img alt='home' className={styles.homeImg}
-              src="/public/homepage.svg"
+              src="homepage.svg"
             />
            </div>
            
